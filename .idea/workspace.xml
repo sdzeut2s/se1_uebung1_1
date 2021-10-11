@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca300fb0-5308-4477-b9e2-22457dc215a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/New_Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/ContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/ContainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/New_Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/New_Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +48,9 @@
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.hbrs.se1.ws21.uebung2" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.hbrs.se1.ws21.uebung2" />
@@ -122,7 +122,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633740284284</updated>
       <workItem from="1633740308745" duration="8644000" />
-      <workItem from="1633889302020" duration="20814000" />
+      <workItem from="1633889302020" duration="21358000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1633793094704</created>
@@ -145,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633902366926</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ueb2 commit">
+      <created>1633920691463</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1633920691463</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +161,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
     <MESSAGE value="test commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+    <MESSAGE value="ueb2 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="ueb2 commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
