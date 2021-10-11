@@ -5,7 +5,7 @@ import org.hbrs.se1.ws21.uebung2.exception.ContainerException;
 import java.util.LinkedList;
 
 
-public class Container implements Member {
+public class Container  {
 
     LinkedList<Member> listemember = new LinkedList<>();
     private Member member;
@@ -27,11 +27,11 @@ public class Container implements Member {
         for (Member member : listemember) {
             if (id.equals(member.getID())) {
                 listemember.remove(member);
-            } else {
-                return "Diese id gehört zu keinem Member.Bitte geben Sie eine neue id";
+                return id + "gelöscht";
             }
         }
-            return null;
+                return "Diese id gehört zu keinem Member.Bitte geben Sie eine neue id";
+
         }
 
         public void dump() {
@@ -46,15 +46,10 @@ public class Container implements Member {
         return listemember.size();
         }
 
+    /*public void setId(Integer id){
 
-    @Override
-    public Integer getID() {
-        return this.member.getID();
-    }
+    }*/
 
-    @Override
-    public String toString() {
-        return "Member (ID =" + this.member.getID() + ")";
-    }
+
 
 }
