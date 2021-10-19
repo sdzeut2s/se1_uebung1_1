@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca300fb0-5308-4477-b9e2-22457dc215a0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/New_Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/New_Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/ContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/ContainerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +123,8 @@
       <option name="presentableId" value="Default" />
       <updated>1633740284284</updated>
       <workItem from="1633740308745" duration="8644000" />
-      <workItem from="1633889302020" duration="21358000" />
+      <workItem from="1633889302020" duration="21998000" />
+      <workItem from="1634651613311" duration="320000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1633793094704</created>
@@ -152,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633920691463</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ueb2 commit">
+      <created>1633921183691</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1633921183691</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

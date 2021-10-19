@@ -34,7 +34,6 @@ class ContainerTest {
 
     @Test
     void deleteMember() {
-        container.deleteMember(2);
     }
 
     @Test
@@ -43,7 +42,7 @@ class ContainerTest {
 
     @Test
     void size() {
-        assertEquals(0, container.size());
+
     }
 
 
