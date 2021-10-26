@@ -15,6 +15,9 @@ import java.util.List;
  *
  * @param <E>
  */
+
+// Strategy Design Pattern ist was ich hier benutzt habe
+
 public interface PersistenceStrategy<E> {
     public void openConnection() throws PersistenceException;
     public void closeConnection() throws PersistenceException;

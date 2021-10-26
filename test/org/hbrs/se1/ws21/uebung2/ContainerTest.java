@@ -10,7 +10,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ContainerTest {
 
-    Container container= new Container();
+    Container container= Container.getContainerInstance();
+    Container container2= Container.getContainerInstance();
     Member m1= new New_Member(1);
     Member m2= new New_Member(2);
     Member m3= new New_Member(1);
@@ -21,7 +22,9 @@ class ContainerTest {
     @Test
     void addMember() throws ContainerException {
         container.addMember(m1);
-        container.addMember(m2);
+        container2.addMember(m2);
+        assertEquals(2, container.size());
+        assertEquals(2, container2.size());
 
         assertThrows(ContainerException.class, ()-> {
             container.addMember(m3);

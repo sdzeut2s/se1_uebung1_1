@@ -1,11 +1,26 @@
 package org.hbrs.se1.ws21.uebung2;
 
 import org.hbrs.se1.ws21.uebung2.exception.ContainerException;
+import org.hbrs.se1.ws21.uebung3.persistence.PersistenceException;
+import org.hbrs.se1.ws21.uebung3.persistence.PersistenceStrategyStream;
 
 import java.util.LinkedList;
+import java.util.List;
 
 
 public class Container  {
+
+    private static final Container containerInstance =new Container();
+     PersistenceStrategyStream<Member> pStream= new PersistenceStrategyStream<>();
+
+
+    private Container(){
+
+    }
+
+    public static Container getContainerInstance() {
+        return containerInstance;
+    }
 
     LinkedList<Member> listemember = new LinkedList<>();
     private Member member;
@@ -34,21 +49,20 @@ public class Container  {
 
         }
 
-        public void dump() {
 
-            for(Member member : listemember){
-                System.out.println(member.toString());
-
-            }
-        }
 
         public int size(){
         return listemember.size();
         }
 
-    /*public void setId(Integer id){
+    public void store() throws PersistenceException {
+        pStream.save(listemember);
+    }
 
-    }*/
+    public List<Member> getCurrentList(){
+        return listemember;
+    }
+
 
 
 
