@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ca300fb0-5308-4477-b9e2-22457dc215a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/MemberView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung2/Container.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/PersistenceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/PersistenceException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung3/persistence/PersistenceStrategyStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/ContainerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/org/hbrs/se1/ws21/uebung2/ContainerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/prototype/Container.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/prototype/Container.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/prototype/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/hbrs/se1/ws21/uebung4/prototype/Employee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +14,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,13 +59,26 @@
       <recent name="org.hbrs.se1.ws21.uebung2" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.EingabeDialog">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung3.persistence.Client" />
       <module name="codesSE2021" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.hbrs.se1.ws21.uebung3.persistence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EingabeDialog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.hbrs.se1.ws21.uebung4.prototype.EingabeDialog" />
+      <module name="codesSE2021" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.hbrs.se1.ws21.uebung4.prototype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,6 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EingabeDialog" />
         <item itemvalue="Application.Client" />
         <item itemvalue="JUnit.ContainerTest.addMember" />
         <item itemvalue="JUnit.ContainerTest.getID" />
@@ -149,7 +157,9 @@
       <workItem from="1634651613311" duration="320000" />
       <workItem from="1635093767941" duration="14992000" />
       <workItem from="1635186738366" duration="9849000" />
-      <workItem from="1635278114613" duration="1366000" />
+      <workItem from="1635278114613" duration="1564000" />
+      <workItem from="1636143681600" duration="600000" />
+      <workItem from="1636308567392" duration="13887000" />
     </task>
     <task id="LOCAL-00001" summary="second commit">
       <created>1633793094704</created>
@@ -186,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633921183691</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ueb3 commit">
+      <created>1635289551016</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1635289551016</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -196,7 +213,8 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="test commit" />
     <MESSAGE value="ueb2 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="ueb2 commit" />
+    <MESSAGE value="ueb3 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="ueb3 commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
